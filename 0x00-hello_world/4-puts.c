@@ -2,7 +2,7 @@
 /**
  * main -it prints out output using put
  *
- * Return: always (0)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
