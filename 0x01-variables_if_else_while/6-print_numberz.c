@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int alphabets - '0';
+	int alphabets =  '0';
 
-	while (alphabets <= '9')
+	while ('n' <= '9')
 	{
 		putchar(alphabets);
 	}
