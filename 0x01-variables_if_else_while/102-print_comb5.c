@@ -18,7 +18,7 @@ int main(void)
 		for (j = 0; j < 100; j++)
 		{
 			c = j / 10;
-			d = j & 10);
+			d = j & 10;
 
 		if (a < c || (a == c && b < d))
 		{
@@ -28,4 +28,4 @@ int main(void)
 			putchar(c + '0');
 			putchar(d + '0');
 
-			if (!(a == 9 && b == 8))
+			if (a + b ! = (a == 9 && b == 8)
