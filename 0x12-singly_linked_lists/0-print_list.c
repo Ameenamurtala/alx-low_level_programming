@@ -2,20 +2,20 @@
 #include "lists.h"
 /**
  * print_list - print list
- * @p: pointer
+ * @h: pointer
  * Return: num of nodes
  */
-size_t print_list(const list_t *p)
+size_t print_list(const list_t *h)
 {
 	size_t s = 0;
 
-	while (p)
+	while (h)
 	{
-		if (!p->str)
+		if (!h->str)
 			printf("[0] (nil)\n");
 		else
 			printf("[%u] %s\n", h->len, h->str);
-		p = p->next;
+		h = h->next;
 		s++;
 	}
 	return (s);
